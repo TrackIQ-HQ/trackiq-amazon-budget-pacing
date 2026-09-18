@@ -1,0 +1,36 @@
+{
+  "name": "trackiq-amazon-budget-pacing",
+  "title": "TrackIQ: Amazon Budget Pacing and Month-End Forecast",
+  "category": "advertising",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Builds a mid-month Amazon advertising pacing report \u2014 month-to-date spend against the plan, a day-weighted projection to month end, the gap in dollars, which portfolios are capping out before the day is over, which are underdelivering their share, and a reallocation table that moves budget from the second to the first. Use when the user asks about budget pacing, are we on budget, month-end forecas",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_account_overview",
+      "get_campaigns",
+      "get_portfolios",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-budget-pacing",
+  "license": "MIT"
+}
