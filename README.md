@@ -4,7 +4,7 @@ Replaces the spreadsheet somebody rebuilds by hand on the 20th. **Are we going t
 
 Output is a branded HTML report: the projection, the portfolios off pace, and a reallocation table.
 
-Part of **Amazon Advertising** in the
+Part of **Amazon Sponsored Ads** in the
 [TrackIQ skills catalog](https://github.com/TrackIQ-HQ/amazon-seller-skills).
 
 Built as an [Agent Skill](https://code.claude.com/docs/en/skills). Runs in
